@@ -13,5 +13,15 @@ namespace TechnicalHomework4
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            lblSendMessage.Text = "Message Sent!";
+        }
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+            lblUpdateMessage.Text = "Prescription Updated!";
+        }
     }
 }
