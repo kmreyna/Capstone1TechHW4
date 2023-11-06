@@ -67,16 +67,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CustomerService.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Dispensary.aspx" />
+    <Content Include="main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerService.aspx.cs">
+      <DependentUpon>CustomerService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerService.aspx.designer.cs">
+      <DependentUpon>CustomerService.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dispensary.aspx.cs">
+      <DependentUpon>Dispensary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dispensary.aspx.designer.cs">
+      <DependentUpon>Dispensary.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
